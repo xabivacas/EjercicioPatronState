@@ -6,6 +6,7 @@ public class Habitacion {
 	public Habitacion() {
 		super();
 		estado= new HabitacionDisponible();
+		imp();
 	}
 	
 	public void ocupar() {
