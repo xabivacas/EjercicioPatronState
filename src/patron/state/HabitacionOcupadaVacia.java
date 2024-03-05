@@ -17,7 +17,7 @@ public class HabitacionOcupadaVacia implements HabitacionEstado {
 	@Override
 	public HabitacionEstado limpiar() {
 		System.out.println("La habitacion no ha cambiado de estado");
-		return this;
+		return new HabitacionLimpieza();
 	}
 
 	@Override
